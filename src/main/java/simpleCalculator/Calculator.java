@@ -13,6 +13,9 @@ public class Calculator {
 	public void multi(int x, int y) {
 		result=x*y;
 	}
+	public void square(int x){ //내가쓴코드
+		result = x*x;
+	}
 	public int getResult() {
 		return result;
 	}
